@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyMove()
     {
         // 속도 추가해야댐
-        float speed = 5f;
+        float speed = 7f;
         rigidbody2D.velocity = moveDirection * speed;
     }
 
