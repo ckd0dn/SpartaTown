@@ -14,7 +14,6 @@ public class PlayerStat : MonoBehaviour
     {
         name = GameManager.Instance.playerName;
         nameText.text = name;
-        Debug.Log(GameManager.Instance.characterType);
     }
 
 }
