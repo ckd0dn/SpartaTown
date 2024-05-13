@@ -25,9 +25,4 @@ public class PlayerInputController : MainController
     }
 
 
-    public void OnClick(InputValue value)
-    {
-
-    }
-
 }

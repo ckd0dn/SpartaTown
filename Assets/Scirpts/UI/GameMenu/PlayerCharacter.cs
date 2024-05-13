@@ -12,7 +12,8 @@ public class PlayerCharacter : MonoBehaviour
 
     public void ViewCharacterBoard()
     {
-        characterBoard.SetActive(true);
+        bool isActive = characterBoard.active;
+        characterBoard.SetActive(!isActive);
     }
 
     public void ChangeCharacterAnim()
