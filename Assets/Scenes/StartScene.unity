@@ -1467,6 +1467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: 
   characterType: 0
+  playTimeText: {fileID: 0}
 --- !u!1 &1809970646
 GameObject:
   m_ObjectHideFlags: 0
