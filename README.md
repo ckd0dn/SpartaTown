@@ -25,3 +25,5 @@
  - 메뉴창
  - 캐릭터 이름 변경
  - 캐릭터 이미지 변경
+#### 플레이 영상
+https://www.youtube.com/watch?v=-NWpOjAHIBc
