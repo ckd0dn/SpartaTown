@@ -8,15 +8,13 @@ public class PlayerStat : MonoBehaviour
 {
     private string name;
     public Text nameText;
+    public SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
-        name = PlayerPrefs.GetString("PlayerName");
+        name = GameManager.Instance.playerName;
         nameText.text = name;
+        spriteRenderer.sprite = GameManager.Instance.playerMainImage.sprite;
     }
 
-    private void Update()
-    {
-        Debug.Log(name);
-    }
 }
