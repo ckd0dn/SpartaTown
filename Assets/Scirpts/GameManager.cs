@@ -8,7 +8,9 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public string playerName;
-    public Image playerMainImage;
+
+    public CharacterType characterType;
+
 
     private void Awake()
     {
@@ -34,4 +36,10 @@ public class GameManager : MonoBehaviour
     {
         
     }
+}
+
+public enum CharacterType
+{
+    Penguin,
+    Knight,
 }

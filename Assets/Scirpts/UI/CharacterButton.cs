@@ -8,6 +8,7 @@ public class CharacterButton : MonoBehaviour
     public GameObject characterBoard;
     public Image characterImg;
     public Image afterCharacterImg;
+    public CharacterType characterType; 
 
     public void ViewCharacterBoard()
     {
@@ -18,6 +19,6 @@ public class CharacterButton : MonoBehaviour
     {
         characterBoard.SetActive(false);
         characterImg.sprite = afterCharacterImg.sprite;
-        GameManager.Instance.playerMainImage = afterCharacterImg;
+        GameManager.Instance.characterType = characterType;
     }
 }

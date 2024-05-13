@@ -589,6 +589,7 @@ MonoBehaviour:
   characterBoard: {fileID: 835660471}
   characterImg: {fileID: 0}
   afterCharacterImg: {fileID: 0}
+  characterType: 0
 --- !u!1 &471170508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,6 +1328,7 @@ MonoBehaviour:
   characterBoard: {fileID: 835660471}
   characterImg: {fileID: 471170510}
   afterCharacterImg: {fileID: 584574361}
+  characterType: 1
 --- !u!1 &1449994390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,6 +1466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: 
+  characterType: 0
 --- !u!1 &1809970646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,6 +1772,7 @@ MonoBehaviour:
   characterBoard: {fileID: 835660471}
   characterImg: {fileID: 471170510}
   afterCharacterImg: {fileID: 1045617195}
+  characterType: 0
 --- !u!1 &2017701824
 GameObject:
   m_ObjectHideFlags: 0

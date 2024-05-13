@@ -21,7 +21,7 @@ public class PlayerAnimationController : AnimationController
 
     private void Move(Vector2 vector)
     {
-        animator.SetBool(isWalkiing, vector.magnitude > minMoveSpeed);
+        nowAnim.SetBool(isWalkiing, vector.magnitude > minMoveSpeed);
 
     }
 

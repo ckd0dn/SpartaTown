@@ -20,7 +20,6 @@ public class JoinButton : MonoBehaviour
         {
             SceneManager.LoadScene("MainScene");
             // 플레이어 이름에 시작화면에서 입력한 이름넣어주기
-            // PlayerPrefs.SetString("PlayerName", playerName);
             GameManager.Instance.playerName = playerName; 
         }
 
